@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#main-nav {
+    background-color: #ccc;
+    padding: 8px 2vw;
+}
+
+#main-title {
+    font-size: 2.6em;
+}
+
+#main-search-bar {
+    width: 60%;
+    height: 33px;
+    padding-left: 7px;
+}
+
+#main-search-bar, #main-search-bar::placeholder {
+    font-size: 1.1em;
+}
+
+#log-btn {
+    background-color: #2b77e3;
+    color: white;
+    padding: 5px 13px;
+    font-size: 1.2em;
+}
+
+.def-margin-top {
+    margin-top: 26px;
+}
+
+.def-margin-bot {
+    margin-bottom: 26px;
+}
+
+.def-margin-right {
+    margin-right: 26px;
+}
+
+.def-inner-padding {
+    padding: 18px;
+}
+
+.main-margin {
+    margin-left: 6vw;
+    margin-right: 6vw;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.col-1 {
+    flex: 1;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.col-3 {
+    flex: 3;
+}
+
+.centered {
+    align-items: center;
+}
+
+.space-bet {
+    justify-content: space-between;
+}
+
+.blk-border {
+    border: 2px solid black;
+}
+
+.blk-shadow-1 {
+    box-shadow: 2px 2px 0px black;
+}
+
+.plural-form {
+    margin-bottom: 16px;
+}
+
+.fig-of-speech {
+    font-size: 1.3em;
+    margin-bottom: 6px;
+}
+
+.main-word {
+    font-size: 2.2em;
+    margin-bottom: 4px;
+}
+
+.main-word-container {
+    margin-right: 42px;
+}
+
+.like-btn {
+    background-color: #fed966;
+    color: black;
+    padding: 6px 26px;
+}
+
+#side-content h2 {
+    font-size: 1.8em;
+    margin-bottom: 26px;
+}
+
+#side-content h2 strong{
+    font-weight: bolder;
+}
+
+#definition-btn {
+    background-color: #92c47d;
+    padding: 6px 6px;
+    font-size: 1.3em;
+}
